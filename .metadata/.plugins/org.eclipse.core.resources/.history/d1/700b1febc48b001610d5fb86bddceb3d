@@ -1,0 +1,5 @@
+package com.assignment_4.interfaces;
+
+public interface BankOperations {
+
+}

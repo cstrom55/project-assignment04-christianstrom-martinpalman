@@ -1,0 +1,26 @@
+package com.assignment_4.superclasses;
+/**
+ * @author Christian Ström, Martin Pålman
+ *
+ */
+public class Human {
+	private String name = "";
+	private int age = 0;
+	public Human(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+}
